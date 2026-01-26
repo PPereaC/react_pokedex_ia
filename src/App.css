@@ -1,3 +1,11 @@
+.body-content {
+  height: calc(100vh - 99px);
+}
+
+.body-content>.row {
+  height: 100%;
+}
+
 .full-width {
   width: 100%;
 }
@@ -33,6 +41,10 @@
 .bg-navbar-orange .form-control {
   height: 50px;
   border-radius: 15px;
+}
+
+.filter-bar {
+  border-left: 3px solid #dfe5ee;
 }
 
 @media (max-width: 991px) {

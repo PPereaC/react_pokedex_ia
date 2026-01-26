@@ -39,13 +39,18 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className="container-fluid">
-        <div className='row'>
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-        </div>
-      </div>
+      <Container fluid className='body-content'>
+        <Row>
+          <Col lg={2} md={12}>
+            hola
+          </Col>
+          <Col className='filter-bar' lg={10} md={12}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+            </Routes>
+          </Col>
+        </Row>
+      </Container>
 
 
 
